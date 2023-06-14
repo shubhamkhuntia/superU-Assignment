@@ -1,7 +1,12 @@
+### Steps
+
 - `virutalenv env`
 - `cd env/scripts`
 - `activate`
 - change to core directory
+- install DRF, pillow
+- Make migrations & migrate
+- `python manage.py runserver`
 
 ## URL Routes
 
@@ -14,6 +19,7 @@ Loggin into account
 Creating/Updating/Getting users (GET, POST, PATCH)
 `http://127.0.0.1:8000/api/user/`
 
+![Alt text](image-6.png)
 ![Alt text](image.png)
 ![Alt text](image-1.png)
 ![Alt text](image-2.png)
@@ -26,3 +32,7 @@ Creating/Updating/Getting users (GET, POST, PATCH)
 ### Authenticated using token
 
 ![Alt text](image-5.png)
+
+### Runiing unit test cases
+
+![Alt text](image-7.png)
